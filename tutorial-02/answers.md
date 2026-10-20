@@ -33,6 +33,7 @@
         IO.print("\"SDN\" - Software-defined networking");
     }
     ```
+
 ## Question 3
 3. Correct the error for the following statements.
 
@@ -184,7 +185,7 @@ Java.
 
 ## Question 6
 6. Write a java program that print the circumference of a circle. The input of the
-program is diameter. Display the result in three decimal places. (Note  = Math.PI)
+program is diameter. Display the result in three decimal places. (Note pi = Math.PI)
     Enter Diameter: 11.8
     The circumference of the circle is : 37.071
 
@@ -192,6 +193,25 @@ program is diameter. Display the result in three decimal places. (Note  = Mat
     void main(){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Diameter: ");
-        
+        double diameter = input.nextDouble();
+        double pi = Math.pi;
+        double circumference = 2 * diameter * pi;
+        System.out.printf("\n%.3f",circumference)
+    }
+    ```
+
+## Question 7
+7. Write a java program that converts inches to meters. (Given 1 inch equals to 2.54
+centimeters). Print the output in two decimal places.
+    Enter value in inch: 20.17
+    20.17 inches in meters: 0.51 meters
+
+    ```java
+    void main(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter value in inch: ");
+        double inches = input.nextDouble();
+        double meters = (inches * 2.54)/100;
+        System.out.printf("\n %.2f inches in meters: %.2f meters",inches,meters);
     }
     ```
