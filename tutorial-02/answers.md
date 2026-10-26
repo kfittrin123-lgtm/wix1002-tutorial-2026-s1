@@ -123,8 +123,8 @@ Java.
 ## Question 5
 5. Correct the error for the following statements.
     a.
-        final double AMOUNT = "32.5";
-        AMOUNT += 10;
+        final double AMOUNT = "32.5";<br>
+        AMOUNT += 10;<br>
         System.out.println("The amount is " + AMOUNT);
     
     ```java
@@ -136,7 +136,7 @@ Java.
     ```
 
     b.
-    string chapter = 'Summary';
+    string chapter = 'Summary';<br>
     System.out.println(chapter)
 
     ```java
@@ -147,8 +147,8 @@ Java.
     ```
 
     c.
-    int num;
-    ++num++;
+    int num;<br>
+    ++num++;<br>
     num1 = num
 
     ```java
@@ -160,7 +160,7 @@ Java.
     ```
 
     d.
-    int num = 3000;
+    int num = 3000;<br>
     System.out.printf("%4.2f\n", num);
 
     ```java
@@ -171,8 +171,8 @@ Java.
     ```
 
     e.
-    String contact;
-    Scanner keyboard = new Scanner(System.out);
+    String contact;<br>
+    Scanner keyboard = new Scanner(System.out);<br>
     contact = keyboard.nextLine();
 
     ```java
@@ -185,8 +185,8 @@ Java.
 
 ## Question 6
 6. Write a java program that print the circumference of a circle. The input of the
-program is diameter. Display the result in three decimal places. (Note pi = Math.PI)
-    Enter Diameter: 11.8
+program is diameter. Display the result in three decimal places. (Note pi = Math.PI)<br>
+    Enter Diameter: 11.8<br>
     The circumference of the circle is : 37.071
 
     ```java
@@ -202,8 +202,8 @@ program is diameter. Display the result in three decimal places. (Note pi = Math
 
 ## Question 7
 7. Write a java program that converts inches to meters. (Given 1 inch equals to 2.54
-centimeters). Print the output in two decimal places.
-    Enter value in inch: 20.17
+centimeters). Print the output in two decimal places.<br>
+    Enter value in inch: 20.17<br>
     20.17 inches in meters: 0.51 meters
 
     ```java
