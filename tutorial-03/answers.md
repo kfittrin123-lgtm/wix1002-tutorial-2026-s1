@@ -33,7 +33,6 @@
 
     ```java
         void main(){
-            Scanner input = new Scanner(System.in);
             char character = 'a';
 
             if(Character.isUpperCase(character) == true)
